@@ -1,5 +1,6 @@
 import React from 'react'
-import products from '../../products.js';
+
+const products = []
 
 function ProductdescSreen({match}) {
     const productId = match.params.id

@@ -6,7 +6,7 @@ import Rating from 'react-rating';
 function Product({ product }) {
     return (
 
-        <div className="col-md-3 m-3 card p-2 text-left">
+        <div className="text-left">
             <div>
                 <Link to={`/product/${product.id}`}> 
                 <img src={product.image} className='img-fluid' />

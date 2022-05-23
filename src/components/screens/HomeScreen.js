@@ -18,7 +18,9 @@ function HomeScreen() {
             <div className='row justify-content-center'>
 
                 {products.length && (products.map((product,index) => {
-                    return <Product product={product} key={index} />
+                    return <div className='col-md-3 m-3 card p-2 ' key={index} >
+                    <Product product={product}  />
+                    </div>
                     
                 }))}
             </div>

@@ -7,7 +7,8 @@ function HomeScreen() {
         <div>
             <div className='row'>
                 {products.map(product => {
-                    return <Product product={product} />
+                    return  <Product product={product} />
+                    
                 })}
             </div>
         </div>

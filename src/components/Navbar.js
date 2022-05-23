@@ -14,7 +14,7 @@ export default function Navbar() {
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-outline-success" type="submit">Search</button>
                         </form> */}
-                        <ul class="navbar-nav ms-auto">
+                        <ul className="navbar-nav ms-auto">
 
 
                             <li className="nav-item">
@@ -22,7 +22,7 @@ export default function Navbar() {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    <i class="fas fa-shopping-cart"></i>
+                                    <i className="fas fa-shopping-cart"></i>
                                 </a>
                             </li>
 
